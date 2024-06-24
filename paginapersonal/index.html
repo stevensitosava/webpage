@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="icon" type="image/x-icon" href="img/monitor.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Steven Savarin Developer</title>
+</head>
+
+<body>
+    <section id="inicio">
+        <div class="contenido">
+            <header class=>
+                <div class="contenido-header">
+                    <h1 onclick="scrollToTop()">Steven</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">HOME</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">TOOLS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">ABOUT ME</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                  
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <div class="redes">
+                        <a href="https://github.com/Stevensavarin" target="_blank"><i class="fab fa-github redes-icon"></i></a>
+                        <a href="https://twitter.com/StevenSaWarin" target="_blank"><i class="fab fa-twitter redes-icon"></i></a>
+                        <a href="https://www.linkedin.com/in/steven-savarin/" target="_blank"><i class="fab fa-linkedin redes-icon"></i></a>
+                        <a href="mailto:srssdesing@gmail.com"><i class="fas fa-envelope redes-icon"></i></a>
+                    </div>
+                </div>
+            </header>
+            
+            <div class="presentacion">
+                <p class="bienvenida">Welcome</p>
+                <h2 class="wave-animation">I'm <span>Steven Savarin</span> Software Developer</h2>
+                <p class="descripcion">If you can imagine it, you can program it </p>
+                <a href="#portfolio">Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" >
+        <h3 class="titulo-seccion">TOOLS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Front End</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+                <p></p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-python"></i></span>
+                <h4>Python</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Libraries</li>
+                    <li>Frameworks</li>
+                    <li>Databases</li>
+                </ul>
+                <p></p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fas fa-laptop"></i></span>
+                <h4>Deploy</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Domain</li>
+                    <li>Domain Configuration</li>
+                    <li>Hosting</li>
+                </ul>
+                <p></p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Databases</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>MySQL</li>
+                    <li>Postgres</li>
+                    <li>ORM'S</li>
+                </ul>
+                <p></p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Designer</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Photoshop</li>
+                    <li>Creativity</li>
+                    <li>UX/UI Design</li>
+                </ul>
+                <p></p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-earth-americas"></i></span>
+                <h4>Languages</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>English</li>
+                    <li>Spanish</li>
+                    <li><a href="https://en.wikipedia.org/wiki/Papiamento" style="text-decoration: none; color: rgb(255, 0, 43);">Papiamento</a></li>
+                </ul>
+                <p></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class=>
+        <h3 class="titulo-seccion">PORTFOLIO</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <a href="https://fixyaipic.vercel.app/">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto17.jpg" alt="AI Photo editor web">
+                    <div class="info">
+                        <h4>AI Photo Editor</h4>
+                        <p>Next.js 14, TypeScript, Stripe, and MongoDB</p>
+                    </div>
+                </a>
+            </div>
+            <div class="proyecto">
+                <a href="https://github.com/Stevensavarin/Web-scraping-python-Amazon-">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto15.jpg" alt="Web scrapping project">
+                    <div class="info">
+                        <h4>Amazon web scraping</h4>
+                        <p>Python</p>
+                    </div>
+            </div>
+            <div class="proyecto">
+                <a href="https://savarsaas.vercel.app/">
+                    <div class="overlay"></div>
+                    <img src="img/saas.jpg" alt="Website builder web">
+                    <div class="info">
+                        <h4>Website Builder</h4>
+                        <p>Next.js 14, Bun, Stripe Connect, Prisma, and MySQL</p>
+                    </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <a href="https://ai-form-builder-seven.vercel.app/">
+                    <div class="overlay"></div>
+                    <img src="img/AI.jpg" alt="AI Form Builder web">
+                    <div class="info">
+                        <h4>AI Form Builder</h4>
+                        <p>Next.js 14, TypeScript, Drizzle ORM, React, OpenAI, and Stripe</p>
+                    </div>
+                </a>
+            </div>
+            <div class="proyecto">
+                <a href="https://video-conferencing-app-opal.vercel.app/">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto18.png" alt="Zoom clone web">
+                    <div class="info">
+                        <h4>Zoom Clone</h4>
+                        <p>Next.js 14, Stream, and Tailwind CSS</p>
+                    </div>
+                </a>
+            </div>
+            <div class="proyecto">
+                <a href="https://github.com/Stevensavarin/Tasks_page">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto6.jpg" alt="Tasks page project">
+                    <div class="info">
+                        <h4>Tasks Page</h4>
+                        <p>Python/CSS/HTML/MySQL/Flask</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <a href="https://github.com/Stevensavarin/book_store">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto11.jpg" alt="book store project">
+                    <div class="info">
+                        <h4>Book Store</h4>
+                        <p>Python/CSS/HTML/MySQL/Flask/Jinja2</p>
+                    </div>
+                </a>
+            </div>
+            <div class="proyecto">
+                <a href="https://saa-s-ai-platform-with-next-js-13-react-tailwind-prisma-stripe.vercel.app/">
+                    <div class="overlay"></div>
+                    <img src="img/sabio.png" alt="Sabio web">
+                    <div class="info">
+                        <h4>Sabio - Saas AI Platform</h4>
+                        <p>Next.js 13, React, Tailwind, Prisma, and Stripe</p>
+                    </div>
+                </a>
+            </div>
+            <div class="proyecto">
+                <a href="https://www.stevensavarin.com/">
+                    <div class="overlay"></div>
+                    <img src="img/file_share.jpg" alt="SaveEase web">
+                    <div class="info">
+                        <h4>SaveEase - File Sharing App</h4>
+                        <p>Next.js 14, React.js, Tailwind CSS, Firebase, and Clerk</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/me.jpg" alt="steven savarin pensando">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">About me</p>
+            <h2>Hello, I'm <span>Steven Savarin</span> </h2>
+            <h3>Software Developer</h3>
+            <p class="paragraph">Hello! I'm Steven Savarin, a passionate software developer. 
+                Solving challenges and creating innovative solutions are my passion, 
+                and I'm excited for every new opportunity that crosses my path.</p>
+            <p class="descripcion">If you can imagine it, you can program it </p>
+            <a href="Steven_resume.pdf" target="_blank">Resume</a>
+        </div>
+    </section>
+    
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contact me now</h3>
+        <div class="contenedor-form">
+            <form id="contact-form">
+                <div class="fila mitad">
+                    <input type="text" id="nombre" placeholder="Full Name *" class="input-mitad">
+                    <input type="email" id="email" name="email" placeholder="Email Address" class="input-mitad" autocomplete="email">
+                </div>
+                <div class="fila">
+                    <input type="text" id="tema" placeholder="Topic..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea id="mensaje" cols="30" rows="10" placeholder="Your Message..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Send Message" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <div id="mensaje-confirmacion" class="confirmation-message">
+        Thank you for contacting me. I will contact you soon.
+    </div>
+
+    <script src="enviar_correo.js"></script>
+
+    <footer>
+        <p>All rights reserved - Steven Savarin <span id="year"></span></p>
+        <div class="redes">
+            <a href="https://github.com/Stevensavarin"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/srssdesing1"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/steven-savarin/"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:sawarinsteven@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
+
