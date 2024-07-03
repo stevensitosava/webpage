@@ -660,7 +660,7 @@
                     right: 10px;
                 }
 
-                #inicio {
+                #inicio, #portfolio, #contacto {
                     background-attachment: scroll;
                 }
             }
