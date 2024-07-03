@@ -365,25 +365,33 @@
         /* *********************/
         
         #portfolio {
-            max-width: 1100px;
-            padding: 100px 0;
+            padding: 48px 15px;
             margin: auto;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3F0ZWV5Ynh2Z2FqZjdrcno4MGR4NnBuMGh5c2tybjFsZHg3MjZ2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nHyZigjdO4hEodq9fv/giphy.webp");
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            position: relative;
         }
         
         #portfolio .titulo-seccion {
             text-align: center;
             font-size: 22px;
             text-transform: uppercase;
-            color: #111135;
+            color: #ff5080;
             text-decoration: underline;
             text-decoration-color: #d3d3d3;
             text-decoration-thickness: 5px;
+            animation: moveBackAndForth 1s ease-in-out infinite alternate;
+
         }
         
         #portfolio .fila {
             display: flex;
-            justify-content: space-between;
             margin: 30px 0;
+            flex-wrap: nowrap;
+            justify-content: center;
+            flex-direction: row;
         }
         
         #portfolio .fila .proyecto {
@@ -435,11 +443,16 @@
         
         #contacto {
             padding: 100px 15px;
-            background-color: #f3f3f3;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExczhqOW5vMzR3N3J4czBoYTVianEwaWptazFpcnZwM2VvNmZkeG16eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YxfllYGDqLRyE/giphy.webp");
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            position: relative;
         }
         
         #contacto .titulo-seccion {
             margin-bottom: 20px;
+            animation: wave 2s infinite linear;
         }
         
         #contacto .contenedor-form {
@@ -476,7 +489,7 @@
             text-align: center;
             font-size: 22px;
             text-transform: uppercase;
-            color: #111135;
+            color: #ff5080;
             text-decoration: underline;
             text-decoration-color: #d3d3d3;
             text-decoration-thickness: 5px;
